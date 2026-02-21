@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier Frames — Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Atelier Frames</a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="product.html">Product</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page container">
+      <section class="contact-card" data-animate>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);margin:0;">Contact Atelier</h1>
+        <p class="muted">Send us a note for frame consultations, lens recommendations, or private appointments.</p>
+        <form>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" name="message" placeholder="Tell us what you're looking for"></textarea>
+          </label>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container">© 2026 Atelier Frames</div></footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
