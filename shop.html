@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier Frames — Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Atelier Frames</a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html" aria-current="page">Shop</a>
+          <a href="product.html">Product</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page container">
+      <section data-animate>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.2rem);margin:0 0 .6rem;">Shop Frames</h1>
+        <p class="muted">A curated collection of contemporary eyeglass frames in understated finishes.</p>
+      </section>
+
+      <section class="section" data-animate>
+        <div class="grid products">
+          <article class="card"><img class="product-image" src="assets/frame-1.svg" alt="Lumière No. 8" /><h3>Lumière No. 8</h3><p class="price">$185</p><a class="btn secondary" href="product.html">View Details</a></article>
+          <article class="card"><img class="product-image" src="assets/frame-2.svg" alt="Northline" /><h3>Northline</h3><p class="price">$210</p><a class="btn secondary" href="product.html">View Details</a></article>
+          <article class="card"><img class="product-image" src="assets/frame-3.svg" alt="Milan Thin Gold" /><h3>Milan Thin Gold</h3><p class="price">$235</p><a class="btn secondary" href="product.html">View Details</a></article>
+          <article class="card"><img class="product-image" src="assets/frame-4.svg" alt="Arden Matte Black" /><h3>Arden Matte Black</h3><p class="price">$198</p><a class="btn secondary" href="product.html">View Details</a></article>
+          <article class="card"><img class="product-image" src="assets/frame-5.svg" alt="Sora Pearl" /><h3>Sora Pearl</h3><p class="price">$224</p><a class="btn secondary" href="product.html">View Details</a></article>
+          <article class="card"><img class="product-image" src="assets/frame-6.svg" alt="Noble Wire" /><h3>Noble Wire</h3><p class="price">$205</p><a class="btn secondary" href="product.html">View Details</a></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container">© 2026 Atelier Frames</div></footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

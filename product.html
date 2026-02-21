@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier Frames — Product Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Atelier Frames</a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="product.html" aria-current="page">Product</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page container">
+      <section class="details-layout" data-animate>
+        <div class="details-image">
+          <img class="product-image" style="aspect-ratio: 4 / 3;" src="assets/frame-3.svg" alt="Milan Thin Gold frame detail" />
+        </div>
+        <article>
+          <p class="muted" style="letter-spacing: .08em; text-transform: uppercase; font-size:.82rem;">Featured Piece</p>
+          <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:.2rem 0;">Milan Thin Gold</h1>
+          <p class="muted">A lightweight titanium optical frame with a softly rounded square profile, adjustable nose pads, and anti-slip temple tips. Balanced for comfort and quietly expressive style.</p>
+          <ul class="muted">
+            <li>Material: Titanium alloy + acetate tips</li>
+            <li>Lens width: 50mm</li>
+            <li>Bridge: 19mm</li>
+            <li>Temple: 145mm</li>
+          </ul>
+          <p class="price" style="font-size:1.35rem;">$235</p>
+          <button class="btn" type="button">Add to Cart</button>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container">© 2026 Atelier Frames</div></footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
